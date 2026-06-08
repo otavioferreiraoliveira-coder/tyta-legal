@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade — Tyta</title>
+  <style>
+    :root { --bg: #0e0e0e; --card: #1a1a1a; --accent: #f5a623; --text: #e0e0e0; --muted: #888; --border: #2a2a2a; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; padding: 16px; }
+    .container { max-width: 760px; margin: 0 auto; padding: 24px 0 48px; }
+    header { border-bottom: 1px solid var(--border); padding-bottom: 20px; margin-bottom: 32px; }
+    header h1 { font-size: 1.6rem; color: var(--accent); margin-bottom: 6px; }
+    header .meta { font-size: 0.85rem; color: var(--muted); }
+    section { margin-bottom: 28px; }
+    h2 { font-size: 1rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); margin-bottom: 12px; border-left: 3px solid var(--accent); padding-left: 10px; }
+    p { margin-bottom: 10px; font-size: 0.95rem; }
+    ul { padding-left: 20px; margin-bottom: 10px; }
+    li { margin-bottom: 6px; font-size: 0.95rem; }
+    .highlight { background: var(--card); border-left: 4px solid var(--accent); padding: 12px 16px; border-radius: 4px; margin-bottom: 12px; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 12px; font-size: 0.88rem; }
+    th { background: var(--card); color: var(--accent); padding: 10px; text-align: left; border-bottom: 1px solid var(--border); }
+    td { padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .badge { display: inline-block; background: #2a2a00; color: var(--accent); font-size: 0.75rem; padding: 2px 8px; border-radius: 10px; margin-left: 6px; }
+    footer { margin-top: 48px; border-top: 1px solid var(--border); padding-top: 16px; font-size: 0.8rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>Política de Privacidade — Tyta</h1>
+    <div class="meta">Versão 3.0 &nbsp;·&nbsp; Última atualização: 07/06/2026 &nbsp;·&nbsp; Lei aplicável: LGPD — Lei nº 13.709/2018</div>
+  </header>
+
+  <section>
+    <h2>1. Controlador e Encarregado (DPO)</h2>
+    <p><strong>Desenvolvedor / Controlador:</strong> Otavio Ferreira</p>
+    <p><strong>Encarregado de Dados (DPO):</strong> Otavio Ferreira</p>
+    <p><strong>E-mail de privacidade:</strong> <a href="mailto:tavitopstore@outlook.com">tavitopstore@outlook.com</a></p>
+    <p>Para exercer qualquer direito previsto na LGPD (acesso, correção, exclusão, portabilidade, oposição), entre em contato pelo e-mail acima. Respondemos em até 15 dias corridos.</p>
+  </section>
+
+  <section>
+    <h2>2. Para quem este aplicativo se destina</h2>
+    <p>O Tyta destina-se exclusivamente a motoristas autônomos de aplicativos de transporte, maiores de 18 anos. Não coletamos dados de menores. Se identificarmos coleta acidental de dados de menor, excluímos imediatamente.</p>
+  </section>
+
+  <section>
+    <h2>3. O que o Tyta não é</h2>
+    <p>O Tyta <strong>não é afiliado, patrocinado nem endossado</strong> pela 99 Tecnologia Ltda., Uber, iFood ou qualquer plataforma de mobilidade. Operamos de forma independente, lendo informações visíveis na tela do app de transporte para automatizar o registro da atividade profissional do motorista.</p>
+  </section>
+
+  <section>
+    <h2>4. Dados coletados e base legal</h2>
+    <table>
+      <tr>
+        <th>Dado</th>
+        <th>Origem</th>
+        <th>Base Legal (LGPD Art. 7)</th>
+        <th>Retenção</th>
+      </tr>
+      <tr>
+        <td>Preço, km e duração da corrida</td>
+        <td>OCR (Acessibilidade)</td>
+        <td>Execução do serviço (inciso VII)</td>
+        <td>Indefinida — controlada pelo usuário</td>
+      </tr>
+      <tr>
+        <td><strong>Endereço de embarque e destino</strong> <span class="badge">auto-apagado</span></td>
+        <td>OCR (Acessibilidade)</td>
+        <td>Legítimo interesse (inciso IX)</td>
+        <td><strong>7 dias — apagado automaticamente</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Prints do card de corrida</strong> <span class="badge">auto-apagado</span></td>
+        <td>Screenshot (opt-in)</td>
+        <td>Consentimento (inciso I)</td>
+        <td><strong>7 dias — apagado automaticamente</strong></td>
+      </tr>
+      <tr>
+        <td>Vídeos da câmera</td>
+        <td>Câmera (opt-in)</td>
+        <td>Consentimento (inciso I)</td>
+        <td>7 dias / máx 20 itens — automático</td>
+      </tr>
+      <tr>
+        <td>Dados financeiros manuais</td>
+        <td>Input do usuário</td>
+        <td>Execução do serviço (inciso VII)</td>
+        <td>Indefinida — controlada pelo usuário</td>
+      </tr>
+      <tr>
+        <td>Localização GPS</td>
+        <td>LocationManager</td>
+        <td>Execução do serviço (inciso VII)</td>
+        <td>Armazenada com o registro da corrida</td>
+      </tr>
+    </table>
+    <div class="highlight">
+      <strong>Importante:</strong> Endereços de embarque/destino e prints são apagados automaticamente após 7 dias do registro da corrida. Os demais campos da corrida (valor, km, duração) são mantidos para integridade do histórico e das análises financeiras.
+    </div>
+  </section>
+
+  <section>
+    <h2>5. Uso do Serviço de Acessibilidade</h2>
+    <div class="highlight">
+      O Tyta usa a API de Acessibilidade do Android <strong>exclusivamente</strong> para ler dados visíveis do card de corrida (preço, distância, duração e endereço) nos apps de transporte monitorados — atualmente o 99 Driver. Esta é a <strong>única forma técnica</strong> de automatizar o registro sem intervenção manual constante, pois o app 99 Driver não expõe API pública.
+    </div>
+    <ul>
+      <li>O serviço <strong>não lê</strong> mensagens, senhas, dados bancários nem acessa nenhum outro aplicativo.</li>
+      <li>Capturas de tela são realizadas apenas quando o card de corrida do 99 Driver está visível.</li>
+      <li>O OCR é executado localmente no aparelho via Google ML Kit (sem envio de imagens à internet).</li>
+      <li>As capturas brutas são armazenadas por até 30 dias e os endereços estruturados por até 7 dias.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Compartilhamento com terceiros</h2>
+    <table>
+      <tr>
+        <th>Serviço</th>
+        <th>País</th>
+        <th>O que é compartilhado</th>
+        <th>Finalidade</th>
+      </tr>
+      <tr>
+        <td><a href="https://developers.google.com/ml-kit/terms" target="_blank">Google ML Kit</a></td>
+        <td>EUA</td>
+        <td>Bitmaps das capturas de tela (processamento local, mas o SDK pode enviar telemetria)</td>
+        <td>OCR do card de corrida</td>
+      </tr>
+      <tr>
+        <td><a href="https://cloud.google.com/maps-platform/terms" target="_blank">Google Maps Geocoding</a></td>
+        <td>EUA</td>
+        <td>Texto dos endereços OCR</td>
+        <td>Converter endereço em coordenadas</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.maptiler.com/privacy-policy/" target="_blank">MapTiler AG</a></td>
+        <td>Suíça</td>
+        <td>Requisições de tiles de mapa (lat/lon implícita)</td>
+        <td>Renderização do mapa de corridas</td>
+      </tr>
+    </table>
+    <p>Não há integração com Firebase Analytics, Crashlytics, SDKs de publicidade, redes sociais ou qualquer outro serviço de rastreamento.</p>
+  </section>
+
+  <section>
+    <h2>7. Transferência internacional de dados</h2>
+    <p>Dados podem ser processados em servidores do Google nos EUA (ML Kit, Geocoding) e da MapTiler AG na Suíça. Essas transferências são realizadas com base no Art. 33, II da LGPD: os fornecedores possuem compromissos de conformidade equivalentes ao GDPR (Standard Contractual Clauses). A Suíça possui legislação de proteção de dados considerada adequada pela Comissão Europeia.</p>
+  </section>
+
+  <section>
+    <h2>8. Segurança</h2>
+    <ul>
+      <li>Criptografia AES-256-GCM para todos os dados armazenados localmente.</li>
+      <li>Chaves gerenciadas via Android Keystore (hardware-backed quando disponível).</li>
+      <li>Backup em nuvem desabilitado — nenhum dado sincronizado automaticamente.</li>
+      <li>Validação de integridade do app 99 via hash SHA-256 do certificado de assinatura.</li>
+      <li>Nenhum dado financeiro, de corrida ou de localização é transmitido a servidores externos.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>9. Seus direitos (LGPD — Art. 18)</h2>
+    <ul>
+      <li><strong>Confirmar</strong> a existência de tratamento: seção Privacidade &gt; Resumo.</li>
+      <li><strong>Acessar</strong> seus dados: seção Privacidade &gt; Resumo local.</li>
+      <li><strong>Corrigir</strong> dados imprecisos: edite registros dentro do app.</li>
+      <li><strong>Eliminar</strong> dados desnecessários: botões em Privacidade &gt; Apagar.</li>
+      <li><strong>Portabilidade</strong>: exporte vídeos e prints para a galeria do dispositivo.</li>
+      <li><strong>Revogar consentimento</strong> (câmera, prints): desative nas Configurações a qualquer momento.</li>
+      <li><strong>Opor-se</strong> a tratamentos ou solicitar esclarecimentos: <a href="mailto:tavitopstore@outlook.com">tavitopstore@outlook.com</a></li>
+    </ul>
+    <p>Prazo de resposta: 15 dias corridos (Art. 18, §4 LGPD).</p>
+  </section>
+
+  <section>
+    <h2>10. Notificação de incidentes</h2>
+    <p>Em caso de incidente de segurança que possa causar risco ou dano relevante, comunicaremos à ANPD e aos titulares afetados em até 72 horas após a ciência do incidente, conforme Art. 48 da LGPD.</p>
+  </section>
+
+  <section>
+    <h2>11. Alterações nesta política</h2>
+    <p>Alterações relevantes serão comunicadas via notificação no aplicativo. A versão atualizada estará sempre disponível nesta URL. O uso contínuo após a notificação implica aceitação.</p>
+  </section>
+
+  <footer>
+    <p>Tyta v3.0 &nbsp;·&nbsp; Desenvolvedor: Otavio Ferreira &nbsp;·&nbsp; <a href="mailto:tavitopstore@outlook.com">tavitopstore@outlook.com</a></p>
+    <p>Esta política é regida pela <strong>LGPD — Lei nº 13.709/2018</strong>, República Federativa do Brasil.</p>
+    <p style="margin-top: 8px;"><a href="termos">Termos de Uso</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
